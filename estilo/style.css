@@ -12,7 +12,7 @@
 
 html, body {
     min-height: 100vh;
-    background-color: rgb(145, 143, 141);
+    background-image: linear-gradient(to bottom, silver, rgb(88, 88, 88))
 }
 
 header {
@@ -67,4 +67,38 @@ section > p {
     font-family: 'gas';
     font-variant: small-caps;
     font-size: 20px;
+}
+
+
+div > p {
+    font-size: 30px;
+    font-family: 'gas';
+    font-variant: small-caps;
+    color: rgb(73, 73, 73);
+    text-shadow: 0px 0px 5px red;
+    text-align: center;
+}
+
+div#o1 {
+    background-image: url(../imagens/headwrap.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+
+div#o2 {
+    background-image: url(../imagens/kishin.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+
+div#o3 {
+    background-image: url(../imagens/feather.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+
+div#o4 {
+    background-image: url(../imagens/);
+    background-position: center center;
+    background-size: cover;
 }
