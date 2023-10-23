@@ -1,0 +1,70 @@
+@charset "UTF-08"; 
+
+
+@font-face {
+    font-family: 'gas';
+    src: url(RoundStyle-Bold.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgb(145, 143, 141);
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(121, 121, 121), silver, rgb(122, 122, 122));
+}
+
+header > h1 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: 'gas';
+    text-align: center;
+    font-size: 5.5vw;
+    color: rgb(65, 65, 65);
+}
+
+header > nav {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+nav > a { 
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    margin: 0px 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+nav > a:hover {
+    background-color: rgb(107, 107, 107);
+    color: silver;
+    text-shadow: 0px 0px 5px red;
+    transition-duration: 0.5s;
+    border-radius: 3px 3px 0px 0px;
+}
+
+section.container {
+    display: flex;
+    justify-content: center;
+}
+
+section > div {
+    width: 400px;
+    height: 400px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 50px 50px;
+}
+
+section > p {
+    font-family: 'gas';
+    font-variant: small-caps;
+    font-size: 20px;
+}
