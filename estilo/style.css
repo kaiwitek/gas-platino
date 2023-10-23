@@ -21,7 +21,7 @@ header {
 
 header > h1 {
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     font-family: 'gas';
     text-align: center;
     font-size: 5.5vw;
@@ -93,7 +93,7 @@ div#o2 {
 
 div#o3 {
     background-image: url(../imagens/feather.jpeg);
-    background-position: center center;
+    background-position: top center;
     background-size: cover;
 }
 
@@ -101,4 +101,22 @@ div#o4 {
     background-image: url(../imagens/);
     background-position: center center;
     background-size: cover;
+}
+
+footer {
+    color: rgb(58, 58, 58);
+    background-image: linear-gradient(to right, rgb(121, 121, 121), silver, rgb(122, 122, 122));
+    padding: 10px;
+    text-align: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+
+footer > p > a:hover {
+    color: rgb(59, 59, 59);
+    text-shadow: 0px 0px 5px red;
+    transition-duration: 0.5s;
 }
